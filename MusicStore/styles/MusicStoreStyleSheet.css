@@ -1,0 +1,60 @@
+﻿body{
+    background-image:url("../images/background.jpg");
+}
+header{
+    text-align:center;
+    font-size: 60px;
+    background-color:rgba(255, 255, 255, 0.9);
+    border-bottom: solid;
+}
+
+#content{
+    display: flex;
+    flex-flow:column;
+    flex-direction:column;
+    align-content: center;
+    align-items:center;
+    margin:50px;
+    background-color:rgba(255, 255, 255, 0.9);
+    border:solid;
+}
+
+.nav{
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction:row;
+}
+
+.nav li{
+    display:flex;
+    width:100%;
+}
+
+#userInput{
+    border-top:solid;
+    border-bottom:solid;
+}
+
+#userInput tr td{
+        border-right:solid;
+        border-left:solid;
+        border-bottom:solid;
+        padding:5px;
+}
+
+#userInput tr:last-child td:first-child{
+    border-bottom:none;
+}
+
+#userInput tr:last-child td:last-of-type{
+    border-bottom:none;
+}
+
+
+#gridViewSongs{
+    display:flex;
+    flex-flow:column;
+    flex-wrap:wrap;
+    border:solid;
+}
+
